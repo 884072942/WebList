@@ -2,6 +2,7 @@ package com.example.weblist;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
+import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -11,6 +12,7 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 private DrawerLayout mDrawerLayout;
@@ -34,6 +36,14 @@ private DrawerLayout mDrawerLayout;
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
                 mDrawerLayout.closeDrawers();
                 return true;
+            }
+        });
+        FloatingActionButton fab = findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,FabActivity.class);
+                startActivity(intent);
             }
         });
     }

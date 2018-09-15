@@ -4,4 +4,8 @@
     <string name="set_layout">暂时什么都没有o((⊙﹏⊙))o</string>
     <string name="user_name">作者QQ：884072942</string>
     <string name="mail">作者：张。</string>
+    <string name="dashang">打赏作者</string>
+    <string name="tx_dashang">制作不易，还望各位打赏几块大洋o(￣▽￣)ｄ</string>
+    <string name="wx">微信二维码</string>
+    <string name="zfb">支付宝二维码</string>
 </resources>
