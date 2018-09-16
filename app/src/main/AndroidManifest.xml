@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.weblist">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -16,13 +18,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SettingsActivity">
-
-        </activity>
-        <activity android:name=".FabActivity"
-            android:label="@string/dashang">
-
-        </activity>
+        <activity android:name=".SettingsActivity" />
+        <activity
+            android:name=".FabActivity"
+            android:label="@string/dashang" />
+        <activity android:name=".No_1Activity" />
+        <activity android:name=".No_2Activity" />
+        <activity android:name=".No_3Activity" />
+        <activity android:name=".No_4Activity" />
+        <activity android:name=".No_5Activity" />
+        <activity android:name=".No_6Activity"></activity>
     </application>
 
 </manifest>

@@ -3,19 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <group android:checkableBehavior="single">
         <item android:id="@+id/No_1"
-            android:title="@string/app_name"
+            android:title="@string/flmt"
             android:icon="@drawable/ic_star"/>
         <item android:id="@+id/No_2"
-            android:title="@string/app_name"
+            android:title="@string/jsdh"
             android:icon="@drawable/ic_star"/>
         <item android:id="@+id/No_3"
-            android:title="@string/app_name"
+            android:title="@string/cnjc"
             android:icon="@drawable/ic_star"/>
         <item android:id="@+id/No_4"
-            android:title="@string/app_name"
+            android:title="@string/ypjl"
             android:icon="@drawable/ic_star"/>
         <item android:id="@+id/No_5"
-            android:title="@string/app_name"
+            android:title="@string/txqm"
+            android:icon="@drawable/ic_star"/>
+        <item
+            android:title="@string/wybbw"
+            android:id="@+id/No_6"
             android:icon="@drawable/ic_star"/>
 
     </group>

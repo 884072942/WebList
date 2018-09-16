@@ -40,6 +40,7 @@
         app:headerLayout="@layout/tx_layout"
         app:menu="@menu/cehua">
 
+
     </android.support.design.widget.NavigationView>
 
 </android.support.v4.widget.DrawerLayout>
