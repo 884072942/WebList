@@ -9,6 +9,7 @@ import android.webkit.SslErrorHandler;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.LinearLayout;
 
 public class No_3Activity extends AppCompatActivity {
     private WebView webView;
@@ -17,7 +18,9 @@ public class No_3Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.no_3_layout);
-        webView = findViewById(R.id.web_view2);
+        webView = new WebView(getApplicationContext());
+        LinearLayout mll = findViewById(R.id.line_layout3);
+        mll.addView(webView);
         webView.getSettings().setDomStorageEnabled(true);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.setWebViewClient(new WebViewClient(){
@@ -39,4 +42,10 @@ public class No_3Activity extends AppCompatActivity {
             return true;
         }
         return super.onKeyDown(keyCode,event);}
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        webView.removeAllViews();
+        webView.destroy();
+    }
 }

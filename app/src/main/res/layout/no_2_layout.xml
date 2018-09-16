@@ -4,14 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
+    android:id="@+id/line_layout2"
     android:layout_height="match_parent"
     tools:context=".No_2Activity">
-    
-    <WebView
-        android:id="@+id/web_view1"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
 
-    </WebView>
 
 </LinearLayout>

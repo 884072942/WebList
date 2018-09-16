@@ -5,13 +5,8 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/line_layout4"
     tools:context=".No_4Activity">
 
-    <WebView
-        android:id="@+id/web_view3"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-    </WebView>
 
 </LinearLayout>
